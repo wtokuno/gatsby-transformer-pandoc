@@ -1,0 +1,17 @@
+{
+  "name": "gatsby-transformer-pandoc",
+  "version": "1.0.0",
+  "description": "Gatsby transformer plugin for Markdown using the Pandoc converter",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wtokuno/gatsby-transformer-pandoc.git",
+    "directory": "packages/gatsby-transformer-pandoc"
+  },
+  "author": "Wataru Tokuno <w.tokuno@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "gatsby": "^2.17.11",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  }
+}
