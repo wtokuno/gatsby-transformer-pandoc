@@ -11,7 +11,6 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       name: `slug`,
       value: slug
     });
-    console.log(node);
   }
 };
 

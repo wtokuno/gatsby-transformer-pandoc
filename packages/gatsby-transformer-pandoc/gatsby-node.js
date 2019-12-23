@@ -95,7 +95,8 @@ exports.setFieldsOnGraphQLNodeType = async (
       return cachedHTML;
     } else {
       const { spawnSync } = require("child_process");
-      const args = ["--self-contained"];
+      const args = ["--filter=pandoc-citeproc"];
+      console.log(process.cwd());
       const res = spawnSync("pandoc", args, {
         cwd: process.cwd(),
         env: process.env,

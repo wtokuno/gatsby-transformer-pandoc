@@ -1,0 +1,84 @@
+---
+references:
+- id: Cormen:2009:IAT:1614191
+  type: book
+  author:
+  - family: Cormen
+    given: Thomas H.
+  - family: Leiserson
+    given: Charles E.
+  - family: Rivest
+    given: Ronald L.
+  - family: Stein
+    given: Clifford
+  issued:
+  - year: 2009
+  title: Introduction to algorithms, third edition
+  publisher: The MIT Press
+  edition: 3rd
+  ISBN: 0262033844, 9780262033848
+
+- id: Brookes:1984:TCS:828.833
+  type: article-journal
+  author:
+  - family: Brookes
+    given: S. D.
+  - family: Hoare
+    given: C. A. R.
+  - family: Roscoe
+    given: A. W.
+  issued:
+  - year: 1984
+    month: 6
+  title: A theory of communicating sequential processes
+  container-title: J. ACM
+  publisher: ACM
+  publisher-place: New York, NY, USA
+  page: 560-599
+  volume: '31'
+  issue: '3'
+  URL: http://doi.acm.org/10.1145/828.833
+  DOI: 10.1145/828.833
+  ISSN: 0004-5411
+
+- id: Bryant:1986:GAB:6432.6433
+  type: article-journal
+  author:
+  - family: Bryant
+    given: Randal E.
+  issued:
+  - year: 1986
+    month: 8
+  title: Graph-based algorithms for boolean function manipulation
+  container-title: IEEE Trans. Comput.
+  publisher: IEEE Computer Society
+  publisher-place: Washington, DC, USA
+  page: 677-691
+  volume: '35'
+  issue: '8'
+  keyword: Boolean functions, binary decision diagrams, logic design verification,
+    symbolic manipulation
+  URL: https://doi.org/10.1109/TC.1986.1676819
+  DOI: 10.1109/TC.1986.1676819
+  ISSN: 0018-9340
+
+- id: McCarthy:1960:RFS:367177.367199
+  type: article-journal
+  author:
+  - family: McCarthy
+    given: John
+  issued:
+  - year: 1960
+    month: 4
+  title: Recursive functions of symbolic expressions and their computation by machine,
+    part i
+  container-title: Commun. ACM
+  publisher: ACM
+  publisher-place: New York, NY, USA
+  page: 184-195
+  volume: '3'
+  issue: '4'
+  URL: http://doi.acm.org/10.1145/367177.367199
+  DOI: 10.1145/367177.367199
+  ISSN: 0001-0782
+...

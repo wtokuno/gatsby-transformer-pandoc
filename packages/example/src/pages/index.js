@@ -3,12 +3,12 @@ import { graphql } from "gatsby";
 import { PropTypes } from "prop-types";
 
 const Index = ({ data }) => {
-  console.log(data);
-
   return (
     <ul>
       {data.allMarkdownPandoc.edges.map(({ node }) => (
-        <li key={node.id}>{node.fileAbsolutePath}</li>
+        <li key={node.id}>
+          <a href={node.fields.slug}>{node.fileAbsolutePath}</a>
+        </li>
       ))}
     </ul>
   );
@@ -20,7 +20,10 @@ Index.propTypes = {
         PropTypes.shape({
           node: PropTypes.shape({
             id: PropTypes.string.isRequired,
-            fileAbsolutePath: PropTypes.string.isRequired
+            fileAbsolutePath: PropTypes.string.isRequired,
+            fields: PropTypes.shape({
+              slug: PropTypes.string.isRequired
+            })
           })
         })
       )
@@ -36,6 +39,9 @@ export const query = graphql`
         node {
           id
           fileAbsolutePath
+          fields {
+            slug
+          }
         }
       }
     }
